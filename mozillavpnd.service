@@ -1,0 +1,9 @@
+[Unit]
+Description=Service to launch MozillaVPN linuxdaemon
+
+[Service]
+Type=Simple
+ExecStart=mozillavpn linuxdaemon
+
+[Install]
+WantedBy=multi-user.target
